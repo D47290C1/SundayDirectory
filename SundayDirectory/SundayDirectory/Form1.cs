@@ -77,5 +77,11 @@ namespace SundayDirectory
                 Directory.CreateDirectory(pathHari + "\\" + awal.Day.ToString("00") + " " + awal.ToString("MMMM", CultureInfo.CreateSpecificCulture("id")));
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AboutForm a = new AboutForm();
+            a.ShowDialog();
+        }
     }
 }
